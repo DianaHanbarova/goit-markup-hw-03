@@ -1,0 +1,209 @@
+/* ===== VARIABLES ===== */
+
+:root {
+  --dark-color: #2e2f42;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --success: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --modal-overlay-color: #abacb3;
+  --hero-background-color: #6d6d7b;
+  --white-background-color: #ffffff;
+  --modal-background-color: #fcfcfc;
+  --title-one: ;
+  --primary-font: 'Roboto', sans-serif;
+  --logotype-font: 'Raleway', sans-serif;
+}
+
+/* ===== /VARIABLES ===== */
+
+/* ===== COMMON STYLES ===== */
+body {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  background-color: var(--white-background-color);
+}
+
+button {
+  cursor: pointer;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.top-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.section-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/* ===== /COMMON STYLES ===== */
+
+/* ===== HEADER ===== */
+
+.logotype {
+  font-family: var(--logotype-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+.logotype-text-color {
+  color: var(--dark-color);
+}
+
+.menu-link {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--pressed-state-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--pressed-state-color);
+}
+
+.address {
+  font-style: normal;
+}
+.menu-address-link {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/* ===== /HEADER ===== */
+
+/* ===== HERO ===== */
+
+.section-one {
+  background-color: var(--dark-color);
+  color: var(--white-background-color);
+}
+.section-one-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.order-services-btn {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-background-color);
+  background-color: var(--primary-brand-color);
+}
+
+.order-services-btn:hover,
+.order-services-btn:focus {
+  background-color: var(--pressed-state-color);
+}
+
+/* ===== /HERO ===== */
+
+/* ===== FEATURES ===== */
+
+/* ===== /FEATURES ===== */
+
+/* ===== TEAM ===== */
+
+.team {
+  background-color: var(--light-color);
+}
+
+.team-item {
+  background-color: var(--white-background-color);
+}
+
+/* ===== /TEAM ===== */
+
+/* ===== FOOTER ===== */
+
+.page-footer {
+  background-color: var(--dark-color);
+}
+.logo-footer {
+  font-family: var(--logotype-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+.logotype-text-footer {
+  color: var(--light-color);
+}
+
+.page-footer-text {
+  color: var(--light-color);
+}
+
+/* ===== /FOOTER ===== */
+
+/* ===== PORTFOLIO ===== */
+
+.portfolio-btn {
+  background-color: var(--light-color);
+  color: var(--primary-brand-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  font-family: var(--primary-font);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--pressed-state-color);
+  color: var(--white-background-color);
+}
+
+/* ===== /PORTFOLIO ===== */
