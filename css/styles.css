@@ -107,6 +107,7 @@ img {
 .menu {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .menu-address {
@@ -116,7 +117,6 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
 .logotype {
@@ -381,8 +381,7 @@ img {
 }
 
 .portfolio-all-btn {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding: 96px 0 120px 0;
 }
 
 .portfolio-item {
