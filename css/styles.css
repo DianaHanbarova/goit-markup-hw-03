@@ -89,6 +89,7 @@ img {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
 }
 
 /* ===== /COMMON STYLES ===== */
@@ -98,23 +99,26 @@ img {
   display: flex;
   width: 100%;
   max-width: 724px;
+  align-items: center;
 }
 .page-header-container {
   display: flex;
 }
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
+  padding: 24px 0;
 }
 
 .menu-address {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .logotype {
@@ -193,9 +197,14 @@ img {
   letter-spacing: 0.04em;
   color: var(--white-background-color);
   background-color: var(--primary-brand-color);
-  width: 169px;
+  min-width: 169px;
   height: 56;
   justify-content: center;
+  display: block;
+  border: none;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .order-services-btn:hover,
@@ -206,7 +215,10 @@ img {
 /* ===== /HERO ===== */
 
 /* ===== FEATURES ===== */
-.features-hidden {
+.section-two {
+  padding: 120px 0;
+}
+.visually-hidden {
   width: 0px;
 
   position: absolute;
@@ -226,7 +238,7 @@ img {
 }
 
 .features-item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 /* ===== /FEATURES ===== */
 
@@ -240,6 +252,9 @@ img {
   gap: 24px;
 }
 
+.what-doing-title {
+  margin-bottom: 72px;
+}
 /* ===== /WHAT ARE WE DOING ===== */
 
 /* ===== TEAM ===== */
@@ -260,8 +275,25 @@ img {
 
 .team-item {
   background-color: var(--white-background-color);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
+.team-top-title {
+  margin-bottom: 72px;
+}
+
+.team-name {
+  padding: 32px 0;
+}
+
+.team-title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+/team-text {
+  text-align: center;
+}
 /* ===== /TEAM ===== */
 
 /* ===== FOOTER ===== */
@@ -279,6 +311,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
+  margin-bottom: 16px;
+  display: inline-block;
 }
 .logotype-text-footer {
   color: var(--light-color);
