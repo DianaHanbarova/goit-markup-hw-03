@@ -63,7 +63,6 @@ img {
 
 .top-title {
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--dark-color);
@@ -81,14 +80,13 @@ img {
 
 .section-text {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -98,6 +96,8 @@ img {
 /* ===== HEADER ===== */
 .page-navigation {
   display: flex;
+  width: 100%;
+  max-width: 724px;
 }
 .page-header-container {
   display: flex;
@@ -125,6 +125,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
+  margin-right: 76px;
 }
 .logotype-text-color {
   color: var(--dark-color);
@@ -152,6 +153,7 @@ img {
 .address {
   font-style: normal;
 }
+
 .menu-address-link {
   font-family: Roboto;
   font-size: 16px;
@@ -168,6 +170,8 @@ img {
 .section-one {
   background-color: var(--dark-color);
   color: var(--white-background-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .section-one-title {
   font-size: 56px;
@@ -175,6 +179,10 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .order-services-btn {
@@ -185,6 +193,9 @@ img {
   letter-spacing: 0.04em;
   color: var(--white-background-color);
   background-color: var(--primary-brand-color);
+  width: 169px;
+  height: 56;
+  justify-content: center;
 }
 
 .order-services-btn:hover,
@@ -195,13 +206,56 @@ img {
 /* ===== /HERO ===== */
 
 /* ===== FEATURES ===== */
+.features-hidden {
+  width: 0px;
 
+  position: absolute;
+  overflow: hidden;
+}
+
+.features-list {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.features-title {
+  margin-bottom: 8px;
+}
+
+.features-item {
+  width: 264px;
+}
 /* ===== /FEATURES ===== */
+
+/* ===== WHAT ARE WE DOING ===== */
+
+.images-list {
+  padding-top: 60px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+/* ===== /WHAT ARE WE DOING ===== */
 
 /* ===== TEAM ===== */
 
 .team {
   background-color: var(--light-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.team-list {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .team-item {
@@ -214,6 +268,8 @@ img {
 
 .page-footer {
   background-color: var(--dark-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .logo-footer {
   font-family: var(--logotype-font);
@@ -230,6 +286,7 @@ img {
 
 .page-footer-text {
   color: var(--light-color);
+  width: 264px;
 }
 
 /* ===== /FOOTER ===== */
@@ -252,6 +309,29 @@ img {
 .portfolio-btn:focus {
   background-color: var(--pressed-state-color);
   color: var(--white-background-color);
+}
+
+.section-portfolio-top-title {
+  width: 0px;
+
+  position: absolute;
+  overflow: hidden;
+}
+
+.button-list {
+  padding-top: 96px;
+  padding-bottom: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-link {
+  padding-top: 36px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 /* ===== /PORTFOLIO ===== */
