@@ -110,6 +110,10 @@ img {
   padding: 24px 0;
 }
 
+.menu-item {
+  padding: 24px 0;
+}
+
 .menu-address {
   display: flex;
   gap: 40px;
@@ -371,6 +375,7 @@ img {
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 .portfolio-link {
